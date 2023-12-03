@@ -20,7 +20,7 @@ body{
     "header"
     "main"
     "footer";
-    grid-template-rows: 10% 44em 1fr;
+    grid-template-rows: 10% 90% 1fr;
 }
 h1{
     color: var(--color);
@@ -65,13 +65,15 @@ main{
 }
 
 #welcome #pelu {
-    width: 30%;
+    width: 95%;
 }
 #welcome{
     display: flex;
     justify-content: center;
     gap: 50px;
     padding: 50px ;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 #nav-menu{
     list-style: none;
